@@ -3,8 +3,8 @@ Hack html-4
 Alumno Adonis Daller
 
 
-|Hacks |   H-4   | 
-|----------|-----------------------------------------------|
+|Hacks     H-4   | 
+|----------------------------------------------------------|
 |     Details                                              |
 |                                                          |
 |Crear el hack con las habilidades vistas en clases:       |
