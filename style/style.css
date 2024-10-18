@@ -1,0 +1,272 @@
+/* Declaramos la variables de colores */
+:root {
+    --primary_color: #B88940;
+    --secundary_color : #ffbd59;
+    --color_black: black;
+    --bg_color: whait;
+
+}
+/* ----------------------------------- */
+
+/* importamos la fuentes */
+
+@font-face {
+    font-family: 'ruda';
+    src: url(/fonts/Ruda-Black.ttf);
+}
+
+@font-face {
+    font-family: 'catamaran';
+    src: url(/fonts/Catamaran-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'open-sans';
+    src: url(/fonts/OpenSans-ExtraBold.ttf);
+}
+
+/* ------------------------------------ */
+
+/* reseteamos los valores de la pagina */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/* ------------------------------------ */
+
+/* estilos del body */
+
+body {
+
+    width: 1700px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ------------------------------------- */ 
+
+/* estilos del header */
+
+
+
+/* ------------------------------------- */
+
+/* estilos del main */
+
+main {
+    
+    height: 1690px;
+    width: auto;
+    display:flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+.flayer {
+
+    padding: 10px;
+}
+
+.conteiner_1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.line_1 {
+    
+    
+    
+    width: 100px;
+    height: 10px;
+    border-radius: 50px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    transform: translateX(430px);
+    background-color: var(--color_black);
+
+}
+
+.textos {
+
+    text-align: center;
+    font-family: ruda;
+}
+
+.textos h4 {
+
+    font-size: 30px;
+    margin-bottom: -30px;
+    letter-spacing: 5px;
+    padding: 5px;
+
+}
+
+.textos h1 {
+
+    color: var(--primary_color);
+    font-size: 160px;
+    letter-spacing: 9px;
+    padding: 5px;
+
+}
+
+
+.textos h3 {
+
+    font-size: 60px;
+    padding: 5px;
+}
+
+.textos p {
+
+    font-size: 25px;
+    letter-spacing: 7px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    padding: 5px;
+}
+
+.conteiner_2 {
+
+    width: 100vh;
+    z-index: -1;
+
+}
+
+
+.imagen {
+
+    margin-left: 70px;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    z-index: 1;
+    margin-left: 22px;
+
+}
+
+.imag {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 5px;
+}
+
+
+img {
+
+    padding: 5px;
+    width: 270px;
+    height: 400px;
+    z-index: 1;
+}
+
+.imag b {
+
+    font-family: catamaran;
+    font-size: 30px;
+
+}
+
+.container_3 {
+
+    transform: translateY(-430px);
+    margin-top: -20;
+    margin-left: -40px;
+    z-index: -1;
+    justify-content: center;
+    
+ 
+}
+
+
+.line_central_1 {
+
+    width: 1100px;    
+    height: 30px;
+    margin-bottom: 40px;
+    padding: 5px;  
+    transform: translateX(-50px);
+
+    background-color: var(--secundary_color);
+}
+
+.line_central_2 {
+
+    width: 1100px;    
+    height: 30px;
+    margin-bottom: 40px;
+    padding: 5px;
+    transform: translateX(-50px);
+  
+    background-color: var(--secundary_color);
+}
+
+
+.line_central_3 {
+
+    width: 1100px;    
+    height: 30px;
+    margin-bottom: 40px;
+    padding: 5px;
+    transform: translateX(-50px);  
+
+    background-color: var(--secundary_color);
+}
+
+.line_central_4 {
+
+    width: 1100px;    
+    height: 30px;
+    margin-bottom: 40px;
+    padding: 5px;
+    transform: translateX(-50px);
+
+    background-color: var(--secundary_color);
+}
+
+
+.container_4 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-150px);
+
+}
+
+.container_4 h3 {
+
+    color: var(--primary_color);
+    font-family: open-sans;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.container_4 p {
+
+    font-family: catamaran;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: -30px;
+}
+
+
+/* ------------------------------------- */
+
+/* estilos del footer */ 
