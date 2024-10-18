@@ -3,9 +3,9 @@ Hack html-4
 Alumno Adonis Daller
 
 
-|Hacks | Details | 
+|Hacks |   H-4   | 
 |----------|-----------------------------------------------|
-| H-4                                                      |
+|     Details                                              |
 |                                                          |
 |Crear el hack con las habilidades vistas en clases:       |
 |   - diseñar únicamente mediante position / float / flex. |
